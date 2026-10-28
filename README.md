@@ -1,4 +1,6 @@
-# GNU Radio RTL-SDR LoRa 接收工程
+# LifeBeacon Station
+
+支持 RTL-SDR 接收及 HackRF 收发的 LoRa/LifeBeacon 工作站。完整离线依赖包见 [v1.1.0 Releases](https://github.com/cyx728/LifeBeacon_Station/releases/tag/v1.1.0)，按操作系统和 CPU 架构下载；同名 `.sha256` 文件用于校验下载完整性。
 
 ## 运行方式（LifeBeacon Station）
 
@@ -8,7 +10,8 @@
 2. 双击 `Start-Station.cmd`，或在 PowerShell 中运行：
 
    ```powershell
-   Set-Location C:\LifeBeacon
+   # 进入解压后包含 Start-Station.cmd 的实际目录
+   Set-Location C:\LifeBeacon\LifeBeacon-Station-v1.1.0-win-64
    .\Start-Station.cmd
    ```
 
@@ -22,10 +25,21 @@
 
 ```powershell
 Set-Location 'C:\Users\chen\OneDrive - Beijing 101 Middle High School\Projects\26-27 #1 Conrad Challenge\Program\LifeBeacon_Station'
-& 'D:\LifeBeacon-build\station-runtime-verified\python.exe' .\station.py
+.\Start-Station.cmd
 ```
 
-只做 GUI 启动检查可运行 `& 'D:\LifeBeacon-build\station-runtime-verified\python.exe' .\station.py --gui-smoke-test`；只做数字 IQ 回环和协议检查可运行 `...\python.exe .\verify_station.py`。`probe_hackrf.py` 只采集 HackRF，不发射。
+只做 GUI 启动检查可运行 `.\Start-Station.cmd --gui-smoke-test`。数字 IQ 回环和协议检查需要先配置同一个运行时的 DLL 搜索路径：
+
+```powershell
+$stationRuntime = 'D:\LifeBeacon-build\station-runtime-verified'
+$env:PATH = "$stationRuntime;$stationRuntime\Library\bin;$stationRuntime\Scripts;$env:PATH"
+$env:CONDA_PREFIX = $stationRuntime
+& "$stationRuntime\python.exe" .\verify_station.py
+# 可选：只采集 HackRF，不发射
+& "$stationRuntime\python.exe" .\probe_hackrf.py
+```
+
+以上 `D:` 路径是本机开发环境。其他电脑优先使用离线发布包；若使用自建依赖环境，需修改启动脚本中的运行时路径。
 
 ### macOS：发布包
 
