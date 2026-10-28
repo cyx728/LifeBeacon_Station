@@ -1,0 +1,17 @@
+{
+  "test": "HackRF RX/TX/RX, one low-gain CQ sent",
+  "device": "hackrf=0000000000000000a59069de216e2f63",
+  "resumed": true,
+  "waterfall_preserved": true,
+  "rx_pause_s": 1.9690000000009604,
+  "tx_result": {
+    "ok": true,
+    "status": "hardware_stream_completed",
+    "samples": 162432,
+    "duration_s": 0.081216,
+    "rx_pause_s": 1.9690000000009604
+  },
+  "scan_bandwidth_hz": 1000000,
+  "packets": 0,
+  "status": "RX resumed; paused 1.969 s"
+}

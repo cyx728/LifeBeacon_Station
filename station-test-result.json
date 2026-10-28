@@ -1,0 +1,19 @@
+{
+  "test": "synthetic IQ loopback, no RF transmitted",
+  "raw": "4C 42 01 87 CF D8 59 00 AA 74",
+  "decoded": {
+    "magic": "LB",
+    "version": 1,
+    "device_id": 1507381127,
+    "message_type": 0,
+    "crc16_ccitt_le": 29866,
+    "packet_format": "short_cq"
+  },
+  "matching_packets": 1,
+  "devices": [
+    [
+      "hackrf=0000000000000000a59069de216e2f63",
+      "HackRF / Black SDR HackRF Pro"
+    ]
+  ]
+}

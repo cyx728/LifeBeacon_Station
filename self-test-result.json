@@ -1,0 +1,2078 @@
+{
+  "test": "synthetic digital loopback, not live RF",
+  "matching_packets": 4,
+  "records": [
+    {
+      "time": "2026-10-27 20:16:19",
+      "raw_payload_hex": "4C 42 01 01 01 78 56 34 12 0C 4C 61 6D 62 65 72 74 20 43 48 45 4E 03 48 62 00 00 55 11 80 00 94 A2",
+      "status": "PHY CRC OK / LB OK",
+      "fields": {
+        "magic": "LB",
+        "version": 1,
+        "message_type": 1,
+        "name_length": 12,
+        "device_id": 305419896,
+        "name": "Lambert CHEN",
+        "emergency": 1,
+        "hr": 72,
+        "spo2": 98,
+        "hr_raw": 72,
+        "spo2_raw": 98,
+        "crc16_ccitt_le": 41620,
+        "physiology_flags": 3,
+        "physiology_reserved": 0,
+        "location_flag": 0,
+        "battery": 85,
+        "sequence": 17,
+        "rssi_placeholder": 128,
+        "reserved": 0
+      },
+      "phy_crc_valid": true,
+      "signal_avg_dbfs": 0.0013107884669966293,
+      "signal_peak_dbfs": 0.10948821557428975,
+      "signal_samples": 7424,
+      "signal_scope": "synchronized header and payload IQ, before FFT",
+      "payload_fields": [
+        {
+          "field": "magic",
+          "key": "magic",
+          "offset_start": 0,
+          "offset_end": 1,
+          "raw_hex": "4C 42",
+          "value": "LB"
+        },
+        {
+          "field": "version",
+          "key": "version",
+          "offset_start": 2,
+          "offset_end": 2,
+          "raw_hex": "01",
+          "value": 1
+        },
+        {
+          "field": "message_type",
+          "key": "message_type",
+          "offset_start": 3,
+          "offset_end": 3,
+          "raw_hex": "01",
+          "value": 1
+        },
+        {
+          "field": "emergency_level",
+          "key": "emergency",
+          "offset_start": 4,
+          "offset_end": 4,
+          "raw_hex": "01",
+          "value": 1
+        },
+        {
+          "field": "device_id_le",
+          "key": "device_id",
+          "offset_start": 5,
+          "offset_end": 8,
+          "raw_hex": "78 56 34 12",
+          "value": 305419896
+        },
+        {
+          "field": "name_length",
+          "key": "name_length",
+          "offset_start": 9,
+          "offset_end": 9,
+          "raw_hex": "0C",
+          "value": 12
+        },
+        {
+          "field": "name_ascii",
+          "key": "name",
+          "offset_start": 10,
+          "offset_end": 21,
+          "raw_hex": "4C 61 6D 62 65 72 74 20 43 48 45 4E",
+          "value": "Lambert CHEN"
+        },
+        {
+          "field": "physiology_flags",
+          "key": "physiology_flags",
+          "offset_start": 22,
+          "offset_end": 22,
+          "raw_hex": "03",
+          "value": 3
+        },
+        {
+          "field": "heart_rate_bpm",
+          "key": "hr_raw",
+          "offset_start": 23,
+          "offset_end": 23,
+          "raw_hex": "48",
+          "value": 72
+        },
+        {
+          "field": "spo2_percent",
+          "key": "spo2_raw",
+          "offset_start": 24,
+          "offset_end": 24,
+          "raw_hex": "62",
+          "value": 98
+        },
+        {
+          "field": "physiology_reserved",
+          "key": "physiology_reserved",
+          "offset_start": 25,
+          "offset_end": 25,
+          "raw_hex": "00",
+          "value": 0
+        },
+        {
+          "field": "location_flag",
+          "key": "location_flag",
+          "offset_start": 26,
+          "offset_end": 26,
+          "raw_hex": "00",
+          "value": 0
+        },
+        {
+          "field": "battery_percent",
+          "key": "battery",
+          "offset_start": 27,
+          "offset_end": 27,
+          "raw_hex": "55",
+          "value": 85
+        },
+        {
+          "field": "sequence",
+          "key": "sequence",
+          "offset_start": 28,
+          "offset_end": 28,
+          "raw_hex": "11",
+          "value": 17
+        },
+        {
+          "field": "rssi_placeholder",
+          "key": "rssi_placeholder",
+          "offset_start": 29,
+          "offset_end": 29,
+          "raw_hex": "80",
+          "value": 128
+        },
+        {
+          "field": "reserved_1",
+          "key": "reserved",
+          "offset_start": 30,
+          "offset_end": 30,
+          "raw_hex": "00",
+          "value": 0
+        },
+        {
+          "field": "crc16_ccitt_le",
+          "key": "crc16_ccitt_le",
+          "offset_start": 31,
+          "offset_end": 32,
+          "raw_hex": "94 A2",
+          "value": 41620
+        }
+      ],
+      "message_type_label": "beacon"
+    },
+    {
+      "time": "2026-10-27 20:16:19",
+      "raw_payload_hex": "4C 42 01 01 01 78 56 34 12 0C 4C 61 6D 62 65 72 74 20 43 48 45 4E 03 48 62 00 00 55 11 80 00 94 A2",
+      "status": "PHY CRC OK / LB OK",
+      "fields": {
+        "magic": "LB",
+        "version": 1,
+        "message_type": 1,
+        "name_length": 12,
+        "device_id": 305419896,
+        "name": "Lambert CHEN",
+        "emergency": 1,
+        "hr": 72,
+        "spo2": 98,
+        "hr_raw": 72,
+        "spo2_raw": 98,
+        "crc16_ccitt_le": 41620,
+        "physiology_flags": 3,
+        "physiology_reserved": 0,
+        "location_flag": 0,
+        "battery": 85,
+        "sequence": 17,
+        "rssi_placeholder": 128,
+        "reserved": 0
+      },
+      "phy_crc_valid": true,
+      "signal_avg_dbfs": -6.019289124812627,
+      "signal_peak_dbfs": -5.911111697705334,
+      "signal_samples": 7424,
+      "signal_scope": "synchronized header and payload IQ, before FFT",
+      "payload_fields": [
+        {
+          "field": "magic",
+          "key": "magic",
+          "offset_start": 0,
+          "offset_end": 1,
+          "raw_hex": "4C 42",
+          "value": "LB"
+        },
+        {
+          "field": "version",
+          "key": "version",
+          "offset_start": 2,
+          "offset_end": 2,
+          "raw_hex": "01",
+          "value": 1
+        },
+        {
+          "field": "message_type",
+          "key": "message_type",
+          "offset_start": 3,
+          "offset_end": 3,
+          "raw_hex": "01",
+          "value": 1
+        },
+        {
+          "field": "emergency_level",
+          "key": "emergency",
+          "offset_start": 4,
+          "offset_end": 4,
+          "raw_hex": "01",
+          "value": 1
+        },
+        {
+          "field": "device_id_le",
+          "key": "device_id",
+          "offset_start": 5,
+          "offset_end": 8,
+          "raw_hex": "78 56 34 12",
+          "value": 305419896
+        },
+        {
+          "field": "name_length",
+          "key": "name_length",
+          "offset_start": 9,
+          "offset_end": 9,
+          "raw_hex": "0C",
+          "value": 12
+        },
+        {
+          "field": "name_ascii",
+          "key": "name",
+          "offset_start": 10,
+          "offset_end": 21,
+          "raw_hex": "4C 61 6D 62 65 72 74 20 43 48 45 4E",
+          "value": "Lambert CHEN"
+        },
+        {
+          "field": "physiology_flags",
+          "key": "physiology_flags",
+          "offset_start": 22,
+          "offset_end": 22,
+          "raw_hex": "03",
+          "value": 3
+        },
+        {
+          "field": "heart_rate_bpm",
+          "key": "hr_raw",
+          "offset_start": 23,
+          "offset_end": 23,
+          "raw_hex": "48",
+          "value": 72
+        },
+        {
+          "field": "spo2_percent",
+          "key": "spo2_raw",
+          "offset_start": 24,
+          "offset_end": 24,
+          "raw_hex": "62",
+          "value": 98
+        },
+        {
+          "field": "physiology_reserved",
+          "key": "physiology_reserved",
+          "offset_start": 25,
+          "offset_end": 25,
+          "raw_hex": "00",
+          "value": 0
+        },
+        {
+          "field": "location_flag",
+          "key": "location_flag",
+          "offset_start": 26,
+          "offset_end": 26,
+          "raw_hex": "00",
+          "value": 0
+        },
+        {
+          "field": "battery_percent",
+          "key": "battery",
+          "offset_start": 27,
+          "offset_end": 27,
+          "raw_hex": "55",
+          "value": 85
+        },
+        {
+          "field": "sequence",
+          "key": "sequence",
+          "offset_start": 28,
+          "offset_end": 28,
+          "raw_hex": "11",
+          "value": 17
+        },
+        {
+          "field": "rssi_placeholder",
+          "key": "rssi_placeholder",
+          "offset_start": 29,
+          "offset_end": 29,
+          "raw_hex": "80",
+          "value": 128
+        },
+        {
+          "field": "reserved_1",
+          "key": "reserved",
+          "offset_start": 30,
+          "offset_end": 30,
+          "raw_hex": "00",
+          "value": 0
+        },
+        {
+          "field": "crc16_ccitt_le",
+          "key": "crc16_ccitt_le",
+          "offset_start": 31,
+          "offset_end": 32,
+          "raw_hex": "94 A2",
+          "value": 41620
+        }
+      ],
+      "message_type_label": "beacon"
+    },
+    {
+      "time": "2026-10-27 20:16:19",
+      "raw_payload_hex": "4C 42 01 01 01 78 56 34 12 0C 4C 61 6D 62 65 72 74 20 43 48 45 4E 03 48 62 00 00 55 11 80 00 94 A2",
+      "status": "PHY CRC OK / LB OK",
+      "fields": {
+        "magic": "LB",
+        "version": 1,
+        "message_type": 1,
+        "name_length": 12,
+        "device_id": 305419896,
+        "name": "Lambert CHEN",
+        "emergency": 1,
+        "hr": 72,
+        "spo2": 98,
+        "hr_raw": 72,
+        "spo2_raw": 98,
+        "crc16_ccitt_le": 41620,
+        "physiology_flags": 3,
+        "physiology_reserved": 0,
+        "location_flag": 0,
+        "battery": 85,
+        "sequence": 17,
+        "rssi_placeholder": 128,
+        "reserved": 0
+      },
+      "phy_crc_valid": true,
+      "signal_avg_dbfs": -12.039889038092252,
+      "signal_peak_dbfs": -11.931711610984959,
+      "signal_samples": 7424,
+      "signal_scope": "synchronized header and payload IQ, before FFT",
+      "payload_fields": [
+        {
+          "field": "magic",
+          "key": "magic",
+          "offset_start": 0,
+          "offset_end": 1,
+          "raw_hex": "4C 42",
+          "value": "LB"
+        },
+        {
+          "field": "version",
+          "key": "version",
+          "offset_start": 2,
+          "offset_end": 2,
+          "raw_hex": "01",
+          "value": 1
+        },
+        {
+          "field": "message_type",
+          "key": "message_type",
+          "offset_start": 3,
+          "offset_end": 3,
+          "raw_hex": "01",
+          "value": 1
+        },
+        {
+          "field": "emergency_level",
+          "key": "emergency",
+          "offset_start": 4,
+          "offset_end": 4,
+          "raw_hex": "01",
+          "value": 1
+        },
+        {
+          "field": "device_id_le",
+          "key": "device_id",
+          "offset_start": 5,
+          "offset_end": 8,
+          "raw_hex": "78 56 34 12",
+          "value": 305419896
+        },
+        {
+          "field": "name_length",
+          "key": "name_length",
+          "offset_start": 9,
+          "offset_end": 9,
+          "raw_hex": "0C",
+          "value": 12
+        },
+        {
+          "field": "name_ascii",
+          "key": "name",
+          "offset_start": 10,
+          "offset_end": 21,
+          "raw_hex": "4C 61 6D 62 65 72 74 20 43 48 45 4E",
+          "value": "Lambert CHEN"
+        },
+        {
+          "field": "physiology_flags",
+          "key": "physiology_flags",
+          "offset_start": 22,
+          "offset_end": 22,
+          "raw_hex": "03",
+          "value": 3
+        },
+        {
+          "field": "heart_rate_bpm",
+          "key": "hr_raw",
+          "offset_start": 23,
+          "offset_end": 23,
+          "raw_hex": "48",
+          "value": 72
+        },
+        {
+          "field": "spo2_percent",
+          "key": "spo2_raw",
+          "offset_start": 24,
+          "offset_end": 24,
+          "raw_hex": "62",
+          "value": 98
+        },
+        {
+          "field": "physiology_reserved",
+          "key": "physiology_reserved",
+          "offset_start": 25,
+          "offset_end": 25,
+          "raw_hex": "00",
+          "value": 0
+        },
+        {
+          "field": "location_flag",
+          "key": "location_flag",
+          "offset_start": 26,
+          "offset_end": 26,
+          "raw_hex": "00",
+          "value": 0
+        },
+        {
+          "field": "battery_percent",
+          "key": "battery",
+          "offset_start": 27,
+          "offset_end": 27,
+          "raw_hex": "55",
+          "value": 85
+        },
+        {
+          "field": "sequence",
+          "key": "sequence",
+          "offset_start": 28,
+          "offset_end": 28,
+          "raw_hex": "11",
+          "value": 17
+        },
+        {
+          "field": "rssi_placeholder",
+          "key": "rssi_placeholder",
+          "offset_start": 29,
+          "offset_end": 29,
+          "raw_hex": "80",
+          "value": 128
+        },
+        {
+          "field": "reserved_1",
+          "key": "reserved",
+          "offset_start": 30,
+          "offset_end": 30,
+          "raw_hex": "00",
+          "value": 0
+        },
+        {
+          "field": "crc16_ccitt_le",
+          "key": "crc16_ccitt_le",
+          "offset_start": 31,
+          "offset_end": 32,
+          "raw_hex": "94 A2",
+          "value": 41620
+        }
+      ],
+      "message_type_label": "beacon"
+    },
+    {
+      "time": "2026-10-27 20:16:19",
+      "raw_payload_hex": "4C 42 01 01 01 78 56 34 12 0C 4C 61 6D 62 65 72 74 20 43 48 45 4E 03 48 62 00 00 55 11 80 00 94 A2",
+      "status": "PHY CRC OK / LB OK",
+      "fields": {
+        "magic": "LB",
+        "version": 1,
+        "message_type": 1,
+        "name_length": 12,
+        "device_id": 305419896,
+        "name": "Lambert CHEN",
+        "emergency": 1,
+        "hr": 72,
+        "spo2": 98,
+        "hr_raw": 72,
+        "spo2_raw": 98,
+        "crc16_ccitt_le": 41620,
+        "physiology_flags": 3,
+        "physiology_reserved": 0,
+        "location_flag": 0,
+        "battery": 85,
+        "sequence": 17,
+        "rssi_placeholder": 128,
+        "reserved": 0
+      },
+      "phy_crc_valid": true,
+      "signal_avg_dbfs": -18.060488951371877,
+      "signal_peak_dbfs": -17.95231152426458,
+      "signal_samples": 7424,
+      "signal_scope": "synchronized header and payload IQ, before FFT",
+      "payload_fields": [
+        {
+          "field": "magic",
+          "key": "magic",
+          "offset_start": 0,
+          "offset_end": 1,
+          "raw_hex": "4C 42",
+          "value": "LB"
+        },
+        {
+          "field": "version",
+          "key": "version",
+          "offset_start": 2,
+          "offset_end": 2,
+          "raw_hex": "01",
+          "value": 1
+        },
+        {
+          "field": "message_type",
+          "key": "message_type",
+          "offset_start": 3,
+          "offset_end": 3,
+          "raw_hex": "01",
+          "value": 1
+        },
+        {
+          "field": "emergency_level",
+          "key": "emergency",
+          "offset_start": 4,
+          "offset_end": 4,
+          "raw_hex": "01",
+          "value": 1
+        },
+        {
+          "field": "device_id_le",
+          "key": "device_id",
+          "offset_start": 5,
+          "offset_end": 8,
+          "raw_hex": "78 56 34 12",
+          "value": 305419896
+        },
+        {
+          "field": "name_length",
+          "key": "name_length",
+          "offset_start": 9,
+          "offset_end": 9,
+          "raw_hex": "0C",
+          "value": 12
+        },
+        {
+          "field": "name_ascii",
+          "key": "name",
+          "offset_start": 10,
+          "offset_end": 21,
+          "raw_hex": "4C 61 6D 62 65 72 74 20 43 48 45 4E",
+          "value": "Lambert CHEN"
+        },
+        {
+          "field": "physiology_flags",
+          "key": "physiology_flags",
+          "offset_start": 22,
+          "offset_end": 22,
+          "raw_hex": "03",
+          "value": 3
+        },
+        {
+          "field": "heart_rate_bpm",
+          "key": "hr_raw",
+          "offset_start": 23,
+          "offset_end": 23,
+          "raw_hex": "48",
+          "value": 72
+        },
+        {
+          "field": "spo2_percent",
+          "key": "spo2_raw",
+          "offset_start": 24,
+          "offset_end": 24,
+          "raw_hex": "62",
+          "value": 98
+        },
+        {
+          "field": "physiology_reserved",
+          "key": "physiology_reserved",
+          "offset_start": 25,
+          "offset_end": 25,
+          "raw_hex": "00",
+          "value": 0
+        },
+        {
+          "field": "location_flag",
+          "key": "location_flag",
+          "offset_start": 26,
+          "offset_end": 26,
+          "raw_hex": "00",
+          "value": 0
+        },
+        {
+          "field": "battery_percent",
+          "key": "battery",
+          "offset_start": 27,
+          "offset_end": 27,
+          "raw_hex": "55",
+          "value": 85
+        },
+        {
+          "field": "sequence",
+          "key": "sequence",
+          "offset_start": 28,
+          "offset_end": 28,
+          "raw_hex": "11",
+          "value": 17
+        },
+        {
+          "field": "rssi_placeholder",
+          "key": "rssi_placeholder",
+          "offset_start": 29,
+          "offset_end": 29,
+          "raw_hex": "80",
+          "value": 128
+        },
+        {
+          "field": "reserved_1",
+          "key": "reserved",
+          "offset_start": 30,
+          "offset_end": 30,
+          "raw_hex": "00",
+          "value": 0
+        },
+        {
+          "field": "crc16_ccitt_le",
+          "key": "crc16_ccitt_le",
+          "offset_start": 31,
+          "offset_end": 32,
+          "raw_hex": "94 A2",
+          "value": 41620
+        }
+      ],
+      "message_type_label": "beacon"
+    }
+  ],
+  "scan_test": {
+    "simultaneous_carriers_hz": [
+      433725000,
+      433825000
+    ],
+    "records": [
+      {
+        "time": "2026-10-27 20:16:20",
+        "raw_payload_hex": "4C 42 01 01 01 78 56 34 12 0C 4C 61 6D 62 65 72 74 20 43 48 45 4E 03 48 62 00 00 55 11 80 00 94 A2",
+        "status": "PHY CRC OK / LB OK",
+        "fields": {
+          "magic": "LB",
+          "version": 1,
+          "message_type": 1,
+          "name_length": 12,
+          "device_id": 305419896,
+          "name": "Lambert CHEN",
+          "emergency": 1,
+          "hr": 72,
+          "spo2": 98,
+          "hr_raw": 72,
+          "spo2_raw": 98,
+          "crc16_ccitt_le": 41620,
+          "physiology_flags": 3,
+          "physiology_reserved": 0,
+          "location_flag": 0,
+          "battery": 85,
+          "sequence": 17,
+          "rssi_placeholder": 128,
+          "reserved": 0
+        },
+        "phy_crc_valid": true,
+        "signal_avg_dbfs": -2.7878450984216614,
+        "signal_peak_dbfs": 3.91461191116882,
+        "signal_samples": 7424,
+        "signal_scope": "synchronized header and payload IQ, before FFT",
+        "payload_fields": [
+          {
+            "field": "magic",
+            "key": "magic",
+            "offset_start": 0,
+            "offset_end": 1,
+            "raw_hex": "4C 42",
+            "value": "LB"
+          },
+          {
+            "field": "version",
+            "key": "version",
+            "offset_start": 2,
+            "offset_end": 2,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "message_type",
+            "key": "message_type",
+            "offset_start": 3,
+            "offset_end": 3,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "emergency_level",
+            "key": "emergency",
+            "offset_start": 4,
+            "offset_end": 4,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "device_id_le",
+            "key": "device_id",
+            "offset_start": 5,
+            "offset_end": 8,
+            "raw_hex": "78 56 34 12",
+            "value": 305419896
+          },
+          {
+            "field": "name_length",
+            "key": "name_length",
+            "offset_start": 9,
+            "offset_end": 9,
+            "raw_hex": "0C",
+            "value": 12
+          },
+          {
+            "field": "name_ascii",
+            "key": "name",
+            "offset_start": 10,
+            "offset_end": 21,
+            "raw_hex": "4C 61 6D 62 65 72 74 20 43 48 45 4E",
+            "value": "Lambert CHEN"
+          },
+          {
+            "field": "physiology_flags",
+            "key": "physiology_flags",
+            "offset_start": 22,
+            "offset_end": 22,
+            "raw_hex": "03",
+            "value": 3
+          },
+          {
+            "field": "heart_rate_bpm",
+            "key": "hr_raw",
+            "offset_start": 23,
+            "offset_end": 23,
+            "raw_hex": "48",
+            "value": 72
+          },
+          {
+            "field": "spo2_percent",
+            "key": "spo2_raw",
+            "offset_start": 24,
+            "offset_end": 24,
+            "raw_hex": "62",
+            "value": 98
+          },
+          {
+            "field": "physiology_reserved",
+            "key": "physiology_reserved",
+            "offset_start": 25,
+            "offset_end": 25,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "location_flag",
+            "key": "location_flag",
+            "offset_start": 26,
+            "offset_end": 26,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "battery_percent",
+            "key": "battery",
+            "offset_start": 27,
+            "offset_end": 27,
+            "raw_hex": "55",
+            "value": 85
+          },
+          {
+            "field": "sequence",
+            "key": "sequence",
+            "offset_start": 28,
+            "offset_end": 28,
+            "raw_hex": "11",
+            "value": 17
+          },
+          {
+            "field": "rssi_placeholder",
+            "key": "rssi_placeholder",
+            "offset_start": 29,
+            "offset_end": 29,
+            "raw_hex": "80",
+            "value": 128
+          },
+          {
+            "field": "reserved_1",
+            "key": "reserved",
+            "offset_start": 30,
+            "offset_end": 30,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "crc16_ccitt_le",
+            "key": "crc16_ccitt_le",
+            "offset_start": 31,
+            "offset_end": 32,
+            "raw_hex": "94 A2",
+            "value": 41620
+          }
+        ],
+        "message_type_label": "beacon",
+        "channel_frequency_hz": 433725000,
+        "spreading_factor": 7,
+        "lora_bandwidth_hz": 125000
+      },
+      {
+        "time": "2026-10-27 20:16:20",
+        "raw_payload_hex": "4C 42 01 01 01 78 56 34 12 0C 4C 61 6D 62 65 72 74 20 43 48 45 4E 03 48 62 00 00 55 11 80 00 94 A2",
+        "status": "PHY CRC OK / LB OK",
+        "fields": {
+          "magic": "LB",
+          "version": 1,
+          "message_type": 1,
+          "name_length": 12,
+          "device_id": 305419896,
+          "name": "Lambert CHEN",
+          "emergency": 1,
+          "hr": 72,
+          "spo2": 98,
+          "hr_raw": 72,
+          "spo2_raw": 98,
+          "crc16_ccitt_le": 41620,
+          "physiology_flags": 3,
+          "physiology_reserved": 0,
+          "location_flag": 0,
+          "battery": 85,
+          "sequence": 17,
+          "rssi_placeholder": 128,
+          "reserved": 0
+        },
+        "phy_crc_valid": true,
+        "signal_avg_dbfs": 0.32037231768173074,
+        "signal_peak_dbfs": 3.8097870462191956,
+        "signal_samples": 7424,
+        "signal_scope": "synchronized header and payload IQ, before FFT",
+        "payload_fields": [
+          {
+            "field": "magic",
+            "key": "magic",
+            "offset_start": 0,
+            "offset_end": 1,
+            "raw_hex": "4C 42",
+            "value": "LB"
+          },
+          {
+            "field": "version",
+            "key": "version",
+            "offset_start": 2,
+            "offset_end": 2,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "message_type",
+            "key": "message_type",
+            "offset_start": 3,
+            "offset_end": 3,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "emergency_level",
+            "key": "emergency",
+            "offset_start": 4,
+            "offset_end": 4,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "device_id_le",
+            "key": "device_id",
+            "offset_start": 5,
+            "offset_end": 8,
+            "raw_hex": "78 56 34 12",
+            "value": 305419896
+          },
+          {
+            "field": "name_length",
+            "key": "name_length",
+            "offset_start": 9,
+            "offset_end": 9,
+            "raw_hex": "0C",
+            "value": 12
+          },
+          {
+            "field": "name_ascii",
+            "key": "name",
+            "offset_start": 10,
+            "offset_end": 21,
+            "raw_hex": "4C 61 6D 62 65 72 74 20 43 48 45 4E",
+            "value": "Lambert CHEN"
+          },
+          {
+            "field": "physiology_flags",
+            "key": "physiology_flags",
+            "offset_start": 22,
+            "offset_end": 22,
+            "raw_hex": "03",
+            "value": 3
+          },
+          {
+            "field": "heart_rate_bpm",
+            "key": "hr_raw",
+            "offset_start": 23,
+            "offset_end": 23,
+            "raw_hex": "48",
+            "value": 72
+          },
+          {
+            "field": "spo2_percent",
+            "key": "spo2_raw",
+            "offset_start": 24,
+            "offset_end": 24,
+            "raw_hex": "62",
+            "value": 98
+          },
+          {
+            "field": "physiology_reserved",
+            "key": "physiology_reserved",
+            "offset_start": 25,
+            "offset_end": 25,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "location_flag",
+            "key": "location_flag",
+            "offset_start": 26,
+            "offset_end": 26,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "battery_percent",
+            "key": "battery",
+            "offset_start": 27,
+            "offset_end": 27,
+            "raw_hex": "55",
+            "value": 85
+          },
+          {
+            "field": "sequence",
+            "key": "sequence",
+            "offset_start": 28,
+            "offset_end": 28,
+            "raw_hex": "11",
+            "value": 17
+          },
+          {
+            "field": "rssi_placeholder",
+            "key": "rssi_placeholder",
+            "offset_start": 29,
+            "offset_end": 29,
+            "raw_hex": "80",
+            "value": 128
+          },
+          {
+            "field": "reserved_1",
+            "key": "reserved",
+            "offset_start": 30,
+            "offset_end": 30,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "crc16_ccitt_le",
+            "key": "crc16_ccitt_le",
+            "offset_start": 31,
+            "offset_end": 32,
+            "raw_hex": "94 A2",
+            "value": 41620
+          }
+        ],
+        "message_type_label": "beacon",
+        "channel_frequency_hz": 433825000,
+        "spreading_factor": 7,
+        "lora_bandwidth_hz": 125000
+      },
+      {
+        "time": "2026-10-27 20:16:20",
+        "raw_payload_hex": "4C 42 01 01 01 78 56 34 12 0C 4C 61 6D 62 65 72 74 20 43 48 45 4E 03 48 62 00 00 55 11 80 00 94 A2",
+        "status": "PHY CRC OK / LB OK",
+        "fields": {
+          "magic": "LB",
+          "version": 1,
+          "message_type": 1,
+          "name_length": 12,
+          "device_id": 305419896,
+          "name": "Lambert CHEN",
+          "emergency": 1,
+          "hr": 72,
+          "spo2": 98,
+          "hr_raw": 72,
+          "spo2_raw": 98,
+          "crc16_ccitt_le": 41620,
+          "physiology_flags": 3,
+          "physiology_reserved": 0,
+          "location_flag": 0,
+          "battery": 85,
+          "sequence": 17,
+          "rssi_placeholder": 128,
+          "reserved": 0
+        },
+        "phy_crc_valid": true,
+        "signal_avg_dbfs": -8.80710291552846,
+        "signal_peak_dbfs": -2.0425846950408526,
+        "signal_samples": 7424,
+        "signal_scope": "synchronized header and payload IQ, before FFT",
+        "payload_fields": [
+          {
+            "field": "magic",
+            "key": "magic",
+            "offset_start": 0,
+            "offset_end": 1,
+            "raw_hex": "4C 42",
+            "value": "LB"
+          },
+          {
+            "field": "version",
+            "key": "version",
+            "offset_start": 2,
+            "offset_end": 2,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "message_type",
+            "key": "message_type",
+            "offset_start": 3,
+            "offset_end": 3,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "emergency_level",
+            "key": "emergency",
+            "offset_start": 4,
+            "offset_end": 4,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "device_id_le",
+            "key": "device_id",
+            "offset_start": 5,
+            "offset_end": 8,
+            "raw_hex": "78 56 34 12",
+            "value": 305419896
+          },
+          {
+            "field": "name_length",
+            "key": "name_length",
+            "offset_start": 9,
+            "offset_end": 9,
+            "raw_hex": "0C",
+            "value": 12
+          },
+          {
+            "field": "name_ascii",
+            "key": "name",
+            "offset_start": 10,
+            "offset_end": 21,
+            "raw_hex": "4C 61 6D 62 65 72 74 20 43 48 45 4E",
+            "value": "Lambert CHEN"
+          },
+          {
+            "field": "physiology_flags",
+            "key": "physiology_flags",
+            "offset_start": 22,
+            "offset_end": 22,
+            "raw_hex": "03",
+            "value": 3
+          },
+          {
+            "field": "heart_rate_bpm",
+            "key": "hr_raw",
+            "offset_start": 23,
+            "offset_end": 23,
+            "raw_hex": "48",
+            "value": 72
+          },
+          {
+            "field": "spo2_percent",
+            "key": "spo2_raw",
+            "offset_start": 24,
+            "offset_end": 24,
+            "raw_hex": "62",
+            "value": 98
+          },
+          {
+            "field": "physiology_reserved",
+            "key": "physiology_reserved",
+            "offset_start": 25,
+            "offset_end": 25,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "location_flag",
+            "key": "location_flag",
+            "offset_start": 26,
+            "offset_end": 26,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "battery_percent",
+            "key": "battery",
+            "offset_start": 27,
+            "offset_end": 27,
+            "raw_hex": "55",
+            "value": 85
+          },
+          {
+            "field": "sequence",
+            "key": "sequence",
+            "offset_start": 28,
+            "offset_end": 28,
+            "raw_hex": "11",
+            "value": 17
+          },
+          {
+            "field": "rssi_placeholder",
+            "key": "rssi_placeholder",
+            "offset_start": 29,
+            "offset_end": 29,
+            "raw_hex": "80",
+            "value": 128
+          },
+          {
+            "field": "reserved_1",
+            "key": "reserved",
+            "offset_start": 30,
+            "offset_end": 30,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "crc16_ccitt_le",
+            "key": "crc16_ccitt_le",
+            "offset_start": 31,
+            "offset_end": 32,
+            "raw_hex": "94 A2",
+            "value": 41620
+          }
+        ],
+        "message_type_label": "beacon",
+        "channel_frequency_hz": 433725000,
+        "spreading_factor": 7,
+        "lora_bandwidth_hz": 125000
+      },
+      {
+        "time": "2026-10-27 20:16:20",
+        "raw_payload_hex": "4C 42 01 01 01 78 56 34 12 0C 4C 61 6D 62 65 72 74 20 43 48 45 4E 03 48 62 00 00 55 11 80 00 94 A2",
+        "status": "PHY CRC OK / LB OK",
+        "fields": {
+          "magic": "LB",
+          "version": 1,
+          "message_type": 1,
+          "name_length": 12,
+          "device_id": 305419896,
+          "name": "Lambert CHEN",
+          "emergency": 1,
+          "hr": 72,
+          "spo2": 98,
+          "hr_raw": 72,
+          "spo2_raw": 98,
+          "crc16_ccitt_le": 41620,
+          "physiology_flags": 3,
+          "physiology_reserved": 0,
+          "location_flag": 0,
+          "battery": 85,
+          "sequence": 17,
+          "rssi_placeholder": 128,
+          "reserved": 0
+        },
+        "phy_crc_valid": true,
+        "signal_avg_dbfs": -5.696379692242282,
+        "signal_peak_dbfs": -2.2265402925415794,
+        "signal_samples": 7424,
+        "signal_scope": "synchronized header and payload IQ, before FFT",
+        "payload_fields": [
+          {
+            "field": "magic",
+            "key": "magic",
+            "offset_start": 0,
+            "offset_end": 1,
+            "raw_hex": "4C 42",
+            "value": "LB"
+          },
+          {
+            "field": "version",
+            "key": "version",
+            "offset_start": 2,
+            "offset_end": 2,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "message_type",
+            "key": "message_type",
+            "offset_start": 3,
+            "offset_end": 3,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "emergency_level",
+            "key": "emergency",
+            "offset_start": 4,
+            "offset_end": 4,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "device_id_le",
+            "key": "device_id",
+            "offset_start": 5,
+            "offset_end": 8,
+            "raw_hex": "78 56 34 12",
+            "value": 305419896
+          },
+          {
+            "field": "name_length",
+            "key": "name_length",
+            "offset_start": 9,
+            "offset_end": 9,
+            "raw_hex": "0C",
+            "value": 12
+          },
+          {
+            "field": "name_ascii",
+            "key": "name",
+            "offset_start": 10,
+            "offset_end": 21,
+            "raw_hex": "4C 61 6D 62 65 72 74 20 43 48 45 4E",
+            "value": "Lambert CHEN"
+          },
+          {
+            "field": "physiology_flags",
+            "key": "physiology_flags",
+            "offset_start": 22,
+            "offset_end": 22,
+            "raw_hex": "03",
+            "value": 3
+          },
+          {
+            "field": "heart_rate_bpm",
+            "key": "hr_raw",
+            "offset_start": 23,
+            "offset_end": 23,
+            "raw_hex": "48",
+            "value": 72
+          },
+          {
+            "field": "spo2_percent",
+            "key": "spo2_raw",
+            "offset_start": 24,
+            "offset_end": 24,
+            "raw_hex": "62",
+            "value": 98
+          },
+          {
+            "field": "physiology_reserved",
+            "key": "physiology_reserved",
+            "offset_start": 25,
+            "offset_end": 25,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "location_flag",
+            "key": "location_flag",
+            "offset_start": 26,
+            "offset_end": 26,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "battery_percent",
+            "key": "battery",
+            "offset_start": 27,
+            "offset_end": 27,
+            "raw_hex": "55",
+            "value": 85
+          },
+          {
+            "field": "sequence",
+            "key": "sequence",
+            "offset_start": 28,
+            "offset_end": 28,
+            "raw_hex": "11",
+            "value": 17
+          },
+          {
+            "field": "rssi_placeholder",
+            "key": "rssi_placeholder",
+            "offset_start": 29,
+            "offset_end": 29,
+            "raw_hex": "80",
+            "value": 128
+          },
+          {
+            "field": "reserved_1",
+            "key": "reserved",
+            "offset_start": 30,
+            "offset_end": 30,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "crc16_ccitt_le",
+            "key": "crc16_ccitt_le",
+            "offset_start": 31,
+            "offset_end": 32,
+            "raw_hex": "94 A2",
+            "value": 41620
+          }
+        ],
+        "message_type_label": "beacon",
+        "channel_frequency_hz": 433825000,
+        "spreading_factor": 7,
+        "lora_bandwidth_hz": 125000
+      },
+      {
+        "time": "2026-10-27 20:16:20",
+        "raw_payload_hex": "4C 42 01 01 01 78 56 34 12 0C 4C 61 6D 62 65 72 74 20 43 48 45 4E 03 48 62 00 00 55 11 80 00 94 A2",
+        "status": "PHY CRC OK / LB OK",
+        "fields": {
+          "magic": "LB",
+          "version": 1,
+          "message_type": 1,
+          "name_length": 12,
+          "device_id": 305419896,
+          "name": "Lambert CHEN",
+          "emergency": 1,
+          "hr": 72,
+          "spo2": 98,
+          "hr_raw": 72,
+          "spo2_raw": 98,
+          "crc16_ccitt_le": 41620,
+          "physiology_flags": 3,
+          "physiology_reserved": 0,
+          "location_flag": 0,
+          "battery": 85,
+          "sequence": 17,
+          "rssi_placeholder": 128,
+          "reserved": 0
+        },
+        "phy_crc_valid": true,
+        "signal_avg_dbfs": -11.721902137207067,
+        "signal_peak_dbfs": -8.130755977728843,
+        "signal_samples": 7424,
+        "signal_scope": "synchronized header and payload IQ, before FFT",
+        "payload_fields": [
+          {
+            "field": "magic",
+            "key": "magic",
+            "offset_start": 0,
+            "offset_end": 1,
+            "raw_hex": "4C 42",
+            "value": "LB"
+          },
+          {
+            "field": "version",
+            "key": "version",
+            "offset_start": 2,
+            "offset_end": 2,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "message_type",
+            "key": "message_type",
+            "offset_start": 3,
+            "offset_end": 3,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "emergency_level",
+            "key": "emergency",
+            "offset_start": 4,
+            "offset_end": 4,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "device_id_le",
+            "key": "device_id",
+            "offset_start": 5,
+            "offset_end": 8,
+            "raw_hex": "78 56 34 12",
+            "value": 305419896
+          },
+          {
+            "field": "name_length",
+            "key": "name_length",
+            "offset_start": 9,
+            "offset_end": 9,
+            "raw_hex": "0C",
+            "value": 12
+          },
+          {
+            "field": "name_ascii",
+            "key": "name",
+            "offset_start": 10,
+            "offset_end": 21,
+            "raw_hex": "4C 61 6D 62 65 72 74 20 43 48 45 4E",
+            "value": "Lambert CHEN"
+          },
+          {
+            "field": "physiology_flags",
+            "key": "physiology_flags",
+            "offset_start": 22,
+            "offset_end": 22,
+            "raw_hex": "03",
+            "value": 3
+          },
+          {
+            "field": "heart_rate_bpm",
+            "key": "hr_raw",
+            "offset_start": 23,
+            "offset_end": 23,
+            "raw_hex": "48",
+            "value": 72
+          },
+          {
+            "field": "spo2_percent",
+            "key": "spo2_raw",
+            "offset_start": 24,
+            "offset_end": 24,
+            "raw_hex": "62",
+            "value": 98
+          },
+          {
+            "field": "physiology_reserved",
+            "key": "physiology_reserved",
+            "offset_start": 25,
+            "offset_end": 25,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "location_flag",
+            "key": "location_flag",
+            "offset_start": 26,
+            "offset_end": 26,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "battery_percent",
+            "key": "battery",
+            "offset_start": 27,
+            "offset_end": 27,
+            "raw_hex": "55",
+            "value": 85
+          },
+          {
+            "field": "sequence",
+            "key": "sequence",
+            "offset_start": 28,
+            "offset_end": 28,
+            "raw_hex": "11",
+            "value": 17
+          },
+          {
+            "field": "rssi_placeholder",
+            "key": "rssi_placeholder",
+            "offset_start": 29,
+            "offset_end": 29,
+            "raw_hex": "80",
+            "value": 128
+          },
+          {
+            "field": "reserved_1",
+            "key": "reserved",
+            "offset_start": 30,
+            "offset_end": 30,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "crc16_ccitt_le",
+            "key": "crc16_ccitt_le",
+            "offset_start": 31,
+            "offset_end": 32,
+            "raw_hex": "94 A2",
+            "value": 41620
+          }
+        ],
+        "message_type_label": "beacon",
+        "channel_frequency_hz": 433825000,
+        "spreading_factor": 7,
+        "lora_bandwidth_hz": 125000
+      },
+      {
+        "time": "2026-10-27 20:16:20",
+        "raw_payload_hex": "4C 42 01 01 01 78 56 34 12 0C 4C 61 6D 62 65 72 74 20 43 48 45 4E 03 48 62 00 00 55 11 80 00 94 A2",
+        "status": "PHY CRC OK / LB OK",
+        "fields": {
+          "magic": "LB",
+          "version": 1,
+          "message_type": 1,
+          "name_length": 12,
+          "device_id": 305419896,
+          "name": "Lambert CHEN",
+          "emergency": 1,
+          "hr": 72,
+          "spo2": 98,
+          "hr_raw": 72,
+          "spo2_raw": 98,
+          "crc16_ccitt_le": 41620,
+          "physiology_flags": 3,
+          "physiology_reserved": 0,
+          "location_flag": 0,
+          "battery": 85,
+          "sequence": 17,
+          "rssi_placeholder": 128,
+          "reserved": 0
+        },
+        "phy_crc_valid": true,
+        "signal_avg_dbfs": -14.821275057593708,
+        "signal_peak_dbfs": -7.856456266250312,
+        "signal_samples": 7424,
+        "signal_scope": "synchronized header and payload IQ, before FFT",
+        "payload_fields": [
+          {
+            "field": "magic",
+            "key": "magic",
+            "offset_start": 0,
+            "offset_end": 1,
+            "raw_hex": "4C 42",
+            "value": "LB"
+          },
+          {
+            "field": "version",
+            "key": "version",
+            "offset_start": 2,
+            "offset_end": 2,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "message_type",
+            "key": "message_type",
+            "offset_start": 3,
+            "offset_end": 3,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "emergency_level",
+            "key": "emergency",
+            "offset_start": 4,
+            "offset_end": 4,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "device_id_le",
+            "key": "device_id",
+            "offset_start": 5,
+            "offset_end": 8,
+            "raw_hex": "78 56 34 12",
+            "value": 305419896
+          },
+          {
+            "field": "name_length",
+            "key": "name_length",
+            "offset_start": 9,
+            "offset_end": 9,
+            "raw_hex": "0C",
+            "value": 12
+          },
+          {
+            "field": "name_ascii",
+            "key": "name",
+            "offset_start": 10,
+            "offset_end": 21,
+            "raw_hex": "4C 61 6D 62 65 72 74 20 43 48 45 4E",
+            "value": "Lambert CHEN"
+          },
+          {
+            "field": "physiology_flags",
+            "key": "physiology_flags",
+            "offset_start": 22,
+            "offset_end": 22,
+            "raw_hex": "03",
+            "value": 3
+          },
+          {
+            "field": "heart_rate_bpm",
+            "key": "hr_raw",
+            "offset_start": 23,
+            "offset_end": 23,
+            "raw_hex": "48",
+            "value": 72
+          },
+          {
+            "field": "spo2_percent",
+            "key": "spo2_raw",
+            "offset_start": 24,
+            "offset_end": 24,
+            "raw_hex": "62",
+            "value": 98
+          },
+          {
+            "field": "physiology_reserved",
+            "key": "physiology_reserved",
+            "offset_start": 25,
+            "offset_end": 25,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "location_flag",
+            "key": "location_flag",
+            "offset_start": 26,
+            "offset_end": 26,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "battery_percent",
+            "key": "battery",
+            "offset_start": 27,
+            "offset_end": 27,
+            "raw_hex": "55",
+            "value": 85
+          },
+          {
+            "field": "sequence",
+            "key": "sequence",
+            "offset_start": 28,
+            "offset_end": 28,
+            "raw_hex": "11",
+            "value": 17
+          },
+          {
+            "field": "rssi_placeholder",
+            "key": "rssi_placeholder",
+            "offset_start": 29,
+            "offset_end": 29,
+            "raw_hex": "80",
+            "value": 128
+          },
+          {
+            "field": "reserved_1",
+            "key": "reserved",
+            "offset_start": 30,
+            "offset_end": 30,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "crc16_ccitt_le",
+            "key": "crc16_ccitt_le",
+            "offset_start": 31,
+            "offset_end": 32,
+            "raw_hex": "94 A2",
+            "value": 41620
+          }
+        ],
+        "message_type_label": "beacon",
+        "channel_frequency_hz": 433725000,
+        "spreading_factor": 7,
+        "lora_bandwidth_hz": 125000
+      },
+      {
+        "time": "2026-10-27 20:16:20",
+        "raw_payload_hex": "4C 42 01 01 01 78 56 34 12 0C 4C 61 6D 62 65 72 74 20 43 48 45 4E 03 48 62 00 00 55 11 80 00 94 A2",
+        "status": "PHY CRC OK / LB OK",
+        "fields": {
+          "magic": "LB",
+          "version": 1,
+          "message_type": 1,
+          "name_length": 12,
+          "device_id": 305419896,
+          "name": "Lambert CHEN",
+          "emergency": 1,
+          "hr": 72,
+          "spo2": 98,
+          "hr_raw": 72,
+          "spo2_raw": 98,
+          "crc16_ccitt_le": 41620,
+          "physiology_flags": 3,
+          "physiology_reserved": 0,
+          "location_flag": 0,
+          "battery": 85,
+          "sequence": 17,
+          "rssi_placeholder": 128,
+          "reserved": 0
+        },
+        "phy_crc_valid": true,
+        "signal_avg_dbfs": -17.73837692227728,
+        "signal_peak_dbfs": -14.168041606120507,
+        "signal_samples": 7424,
+        "signal_scope": "synchronized header and payload IQ, before FFT",
+        "payload_fields": [
+          {
+            "field": "magic",
+            "key": "magic",
+            "offset_start": 0,
+            "offset_end": 1,
+            "raw_hex": "4C 42",
+            "value": "LB"
+          },
+          {
+            "field": "version",
+            "key": "version",
+            "offset_start": 2,
+            "offset_end": 2,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "message_type",
+            "key": "message_type",
+            "offset_start": 3,
+            "offset_end": 3,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "emergency_level",
+            "key": "emergency",
+            "offset_start": 4,
+            "offset_end": 4,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "device_id_le",
+            "key": "device_id",
+            "offset_start": 5,
+            "offset_end": 8,
+            "raw_hex": "78 56 34 12",
+            "value": 305419896
+          },
+          {
+            "field": "name_length",
+            "key": "name_length",
+            "offset_start": 9,
+            "offset_end": 9,
+            "raw_hex": "0C",
+            "value": 12
+          },
+          {
+            "field": "name_ascii",
+            "key": "name",
+            "offset_start": 10,
+            "offset_end": 21,
+            "raw_hex": "4C 61 6D 62 65 72 74 20 43 48 45 4E",
+            "value": "Lambert CHEN"
+          },
+          {
+            "field": "physiology_flags",
+            "key": "physiology_flags",
+            "offset_start": 22,
+            "offset_end": 22,
+            "raw_hex": "03",
+            "value": 3
+          },
+          {
+            "field": "heart_rate_bpm",
+            "key": "hr_raw",
+            "offset_start": 23,
+            "offset_end": 23,
+            "raw_hex": "48",
+            "value": 72
+          },
+          {
+            "field": "spo2_percent",
+            "key": "spo2_raw",
+            "offset_start": 24,
+            "offset_end": 24,
+            "raw_hex": "62",
+            "value": 98
+          },
+          {
+            "field": "physiology_reserved",
+            "key": "physiology_reserved",
+            "offset_start": 25,
+            "offset_end": 25,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "location_flag",
+            "key": "location_flag",
+            "offset_start": 26,
+            "offset_end": 26,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "battery_percent",
+            "key": "battery",
+            "offset_start": 27,
+            "offset_end": 27,
+            "raw_hex": "55",
+            "value": 85
+          },
+          {
+            "field": "sequence",
+            "key": "sequence",
+            "offset_start": 28,
+            "offset_end": 28,
+            "raw_hex": "11",
+            "value": 17
+          },
+          {
+            "field": "rssi_placeholder",
+            "key": "rssi_placeholder",
+            "offset_start": 29,
+            "offset_end": 29,
+            "raw_hex": "80",
+            "value": 128
+          },
+          {
+            "field": "reserved_1",
+            "key": "reserved",
+            "offset_start": 30,
+            "offset_end": 30,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "crc16_ccitt_le",
+            "key": "crc16_ccitt_le",
+            "offset_start": 31,
+            "offset_end": 32,
+            "raw_hex": "94 A2",
+            "value": 41620
+          }
+        ],
+        "message_type_label": "beacon",
+        "channel_frequency_hz": 433825000,
+        "spreading_factor": 7,
+        "lora_bandwidth_hz": 125000
+      },
+      {
+        "time": "2026-10-27 20:16:20",
+        "raw_payload_hex": "4C 42 01 01 01 78 56 34 12 0C 4C 61 6D 62 65 72 74 20 43 48 45 4E 03 48 62 00 00 55 11 80 00 94 A2",
+        "status": "PHY CRC OK / LB OK",
+        "fields": {
+          "magic": "LB",
+          "version": 1,
+          "message_type": 1,
+          "name_length": 12,
+          "device_id": 305419896,
+          "name": "Lambert CHEN",
+          "emergency": 1,
+          "hr": 72,
+          "spo2": 98,
+          "hr_raw": 72,
+          "spo2_raw": 98,
+          "crc16_ccitt_le": 41620,
+          "physiology_flags": 3,
+          "physiology_reserved": 0,
+          "location_flag": 0,
+          "battery": 85,
+          "sequence": 17,
+          "rssi_placeholder": 128,
+          "reserved": 0
+        },
+        "phy_crc_valid": true,
+        "signal_avg_dbfs": -20.853832408089296,
+        "signal_peak_dbfs": -13.958110825007209,
+        "signal_samples": 7424,
+        "signal_scope": "synchronized header and payload IQ, before FFT",
+        "payload_fields": [
+          {
+            "field": "magic",
+            "key": "magic",
+            "offset_start": 0,
+            "offset_end": 1,
+            "raw_hex": "4C 42",
+            "value": "LB"
+          },
+          {
+            "field": "version",
+            "key": "version",
+            "offset_start": 2,
+            "offset_end": 2,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "message_type",
+            "key": "message_type",
+            "offset_start": 3,
+            "offset_end": 3,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "emergency_level",
+            "key": "emergency",
+            "offset_start": 4,
+            "offset_end": 4,
+            "raw_hex": "01",
+            "value": 1
+          },
+          {
+            "field": "device_id_le",
+            "key": "device_id",
+            "offset_start": 5,
+            "offset_end": 8,
+            "raw_hex": "78 56 34 12",
+            "value": 305419896
+          },
+          {
+            "field": "name_length",
+            "key": "name_length",
+            "offset_start": 9,
+            "offset_end": 9,
+            "raw_hex": "0C",
+            "value": 12
+          },
+          {
+            "field": "name_ascii",
+            "key": "name",
+            "offset_start": 10,
+            "offset_end": 21,
+            "raw_hex": "4C 61 6D 62 65 72 74 20 43 48 45 4E",
+            "value": "Lambert CHEN"
+          },
+          {
+            "field": "physiology_flags",
+            "key": "physiology_flags",
+            "offset_start": 22,
+            "offset_end": 22,
+            "raw_hex": "03",
+            "value": 3
+          },
+          {
+            "field": "heart_rate_bpm",
+            "key": "hr_raw",
+            "offset_start": 23,
+            "offset_end": 23,
+            "raw_hex": "48",
+            "value": 72
+          },
+          {
+            "field": "spo2_percent",
+            "key": "spo2_raw",
+            "offset_start": 24,
+            "offset_end": 24,
+            "raw_hex": "62",
+            "value": 98
+          },
+          {
+            "field": "physiology_reserved",
+            "key": "physiology_reserved",
+            "offset_start": 25,
+            "offset_end": 25,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "location_flag",
+            "key": "location_flag",
+            "offset_start": 26,
+            "offset_end": 26,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "battery_percent",
+            "key": "battery",
+            "offset_start": 27,
+            "offset_end": 27,
+            "raw_hex": "55",
+            "value": 85
+          },
+          {
+            "field": "sequence",
+            "key": "sequence",
+            "offset_start": 28,
+            "offset_end": 28,
+            "raw_hex": "11",
+            "value": 17
+          },
+          {
+            "field": "rssi_placeholder",
+            "key": "rssi_placeholder",
+            "offset_start": 29,
+            "offset_end": 29,
+            "raw_hex": "80",
+            "value": 128
+          },
+          {
+            "field": "reserved_1",
+            "key": "reserved",
+            "offset_start": 30,
+            "offset_end": 30,
+            "raw_hex": "00",
+            "value": 0
+          },
+          {
+            "field": "crc16_ccitt_le",
+            "key": "crc16_ccitt_le",
+            "offset_start": 31,
+            "offset_end": 32,
+            "raw_hex": "94 A2",
+            "value": 41620
+          }
+        ],
+        "message_type_label": "beacon",
+        "channel_frequency_hz": 433725000,
+        "spreading_factor": 7,
+        "lora_bandwidth_hz": 125000
+      }
+    ]
+  }
+}

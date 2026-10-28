@@ -1,0 +1,18 @@
+{
+  "test": "live receive only, no RF transmitted",
+  "device": "hackrf=0000000000000000a59069de216e2f63",
+  "samples": 240000,
+  "sample_rate": 2400000.0,
+  "frequency": 433375000.0,
+  "gain_names": [
+    "RF",
+    "IF",
+    "BB"
+  ],
+  "gains": {
+    "RF": 0.0,
+    "IF": 16.0,
+    "BB": 20.0
+  },
+  "average_dbfs": -60.46118927001953
+}

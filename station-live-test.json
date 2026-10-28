@@ -1,0 +1,17 @@
+{
+  "test": "HackRF live RX and recovery after simulated TX failure; no RF transmitted",
+  "device": "hackrf=0000000000000000a59069de216e2f63",
+  "resumed": true,
+  "waterfall_preserved": true,
+  "rx_pause_s": 1.3280000000013388,
+  "tx_result": {
+    "ok": false,
+    "status": "simulated hardware failure",
+    "rx_pause_s": 1.3280000000013388
+  },
+  "waterfall_updating": true,
+  "waterfall_samples_after": 12394838,
+  "scan_bandwidth_hz": 1000000,
+  "packets": 0,
+  "status": "RX resumed; paused 1.328 s"
+}
